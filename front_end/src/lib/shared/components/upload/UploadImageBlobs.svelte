@@ -26,7 +26,7 @@
 <div class="h-full col-span-3 rounded-lg md:rounded-2xl" on:click|capture|nonpassive|stopPropagation={() => {}}>
 	<label for="image" class="h-full text-center cursor-pointer">
 		<slot>
-			<div class="relative h-full ">
+			<div class="relative ">
 				<img src="{upload}" alt="" class="h-full">
 			</div>
 		</slot>
