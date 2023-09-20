@@ -12,7 +12,7 @@
 		window.onresize = () => {
 			window.deviceType = window.innerWidth > 640 ? "pc" : "mobile";
 		};
-		// window.document.documentElement.requestFullscreen();
+		document.documentElement.requestFullscreen();
 	});
 
 
