@@ -9,7 +9,7 @@
   
 	const updateContent = async () => {  
 	  const result = await trafficHint();
-	  if (result && result > 1) {
+	  if (result && result > 20) {
 		content = result + ` people ahead of you. Please wait a moment!`; 
 	  }
   
